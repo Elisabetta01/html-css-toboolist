@@ -1,0 +1,116 @@
+body{
+     background-color: lightgrey;
+     font-family: 'Poppins', sans-serif;
+}
+
+header{
+     padding: 10px;
+     background-color: white;
+}
+
+h1{
+     display: inline-block;
+     vertical-align: middle;
+}
+
+#logo{
+     vertical-align: middle;
+}
+
+button{
+     padding: 5px 8px;
+     border-radius: 5px;
+}
+
+.b-blu{
+     background-color: skyblue;
+     border-color: skyblue;
+     color: white;
+}
+
+.b-grey{
+     border: 1px solid grey;
+     color: grey;
+}
+
+section{
+     width: 80%;
+     margin: 30px auto;
+     border-radius: 5px;
+     background-color: white;    
+}
+
+section > div{
+     padding: 10px;
+     margin-left: 20px;
+}
+
+hr{
+    border: 1px solid lightgrey;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul li > h3:before{
+     content: '\25B2';
+}
+
+.check::before{
+    content: '\2713';
+    border-radius: 50%;
+    padding: 1px 5px;
+    margin-right: 5px;
+    border: 1px solid green;
+    color: green;
+}
+
+.cross::before{
+    content: '\2715';
+    border-radius: 50%;
+    padding: 1px 5px;
+    margin-right: 5px;
+    border: 1px solid red;
+    color: red;
+}
+
+.etichette::after{
+     padding: 4px;
+     margin: 5px;
+     border-radius: 10px;
+     color: white;
+     font-size: smaller;
+}
+
+.editorial::after{
+     content: 'Editorial';
+     background-color: lightskyblue;
+}
+
+.q1-goals::after{
+     content: 'Q1 Goals';
+     background-color: purple;
+}
+
+.recruiting::after{
+     content: 'Recruiting';
+     background-color: lightseagreen;
+}
+
+.mobile::after{
+     content: 'Mobile';
+     background-color: orange;
+}
+
+.website::after{
+     content: 'Website';
+     background-color: pink;
+}
+
+.sales::after{
+     content: 'Sales';
+     background-color: greenyellow;
+}
+
+
